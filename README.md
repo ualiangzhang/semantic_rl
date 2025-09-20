@@ -79,10 +79,10 @@ python -m train_procgen.hover_clusters --env_name fruitbot
 ## 🎮 Supported Environments
 
 Our implementation supports four Procgen environments:
-- **CoinRun** - Platformer with coin collection
-- **FruitBot** - Fruit collection game
-- **Jumper** - Jumping-based platformer
-- **Ninja** - Action-based ninja game
+- **CoinRun**
+- **FruitBot**
+- **Jumper**
+- **Ninja**
 
 ## 🎬 Semantic Clustering Demonstration
 
