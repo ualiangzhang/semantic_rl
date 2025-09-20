@@ -86,7 +86,7 @@ Our implementation supports four Procgen environments:
 
 ## 🎬 Semantic Clustering Demonstration
 
-### Ninja Environment - 8 Skill Clusters
+### Ninja Environment - 8 Semantic Clusters
 
 The following videos demonstrate the 8 distinct semantic clusters learned by our model in the Ninja environment. Each cluster represents a different behavioral pattern and skill set:
 
