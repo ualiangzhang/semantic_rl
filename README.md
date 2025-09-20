@@ -21,8 +21,8 @@ This work presents a novel approach to enhancing interpretability in deep reinfo
 
 2. **Install dependencies:**
    ```bash
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
 
 3. **Install Procgen environments:**
    Follow the installation steps in the [Procgen repository](https://github.com/openai/procgen).
@@ -134,7 +134,7 @@ The following videos demonstrate the 8 distinct semantic clusters learned by our
 #### 🧭 Behavior Descriptions (Ninja)
 
 | Cluster | Behavior |
-|---|---|
+|---------|----------|
 | 0 | The agent starts by walking through the first platform and then performs a high jump to reach a higher ledge. |
 | 1 | The agent makes small jumps in the middle of the scene. |
 | 2 | Two interpretations are present: (1) the agent starts from the leftmost end of the scene and walks to the starting position of Cluster 0; (2) when there are no higher ledges to jump to, the agent begins from the scene, walks over the first platform, and prepares to jump to the subsequent ledge. |
@@ -162,9 +162,8 @@ baseline/                # Required RL training package
 train_procgen/
 ├── checkpoints/         # Trained model checkpoints
 ├── figures/             # Generated visualizations and videos
-videos/                  # video clips corresponding to the clusters in the paper             
+videos/                  # video clips corresponding to the clusters in the paper
 ```
-
 
 ## 📈 Reproducing Results
 
