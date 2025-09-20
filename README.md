@@ -131,88 +131,6 @@ The following videos demonstrate the 8 distinct semantic clusters learned by our
 </tr>
 </table>
 
-### FruitBot Environment - 8 Semantic Clusters
-
-<table>
-<tr>
-<td align="center">
-<strong>Cluster 0</strong><br/>
-<img src="videos/fruitbot_skills/cluster_0.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 1</strong><br/>
-<img src="videos/fruitbot_skills/cluster_1.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 2</strong><br/>
-<img src="videos/fruitbot_skills/cluster_2.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 3</strong><br/>
-<img src="videos/fruitbot_skills/cluster_3.gif" width="200" height="200" />
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>Cluster 4</strong><br/>
-<img src="videos/fruitbot_skills/cluster_4.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 5</strong><br/>
-<img src="videos/fruitbot_skills/cluster_5.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 6</strong><br/>
-<img src="videos/fruitbot_skills/cluster_6.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 7</strong><br/>
-<img src="videos/fruitbot_skills/cluster_7.gif" width="200" height="200" />
-</td>
-</tr>
-</table>
-
-### Jumper Environment - 8 Semantic Clusters
-
-<table>
-<tr>
-<td align="center">
-<strong>Cluster 0</strong><br/>
-<img src="videos/jumper_skills/cluster_0.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 1</strong><br/>
-<img src="videos/jumper_skills/cluster_1.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 2</strong><br/>
-<img src="videos/jumper_skills/cluster_2.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 3</strong><br/>
-<img src="videos/jumper_skills/cluster_3.gif" width="200" height="200" />
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>Cluster 4</strong><br/>
-<img src="videos/jumper_skills/cluster_4.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 5</strong><br/>
-<img src="videos/jumper_skills/cluster_5.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 6</strong><br/>
-<img src="videos/jumper_skills/cluster_6.gif" width="200" height="200" />
-</td>
-<td align="center">
-<strong>Cluster 7</strong><br/>
-<img src="videos/jumper_skills/cluster_7.gif" width="200" height="200" />
-</td>
-</tr>
-</table>
-
 #### 🧭 Behavior Descriptions (Ninja)
 
 | Cluster | Behavior |
@@ -225,24 +143,6 @@ The following videos demonstrate the 8 distinct semantic clusters learned by our
 | 5 | The agent walks on the ledge and prepares to jump onto a ledge at the same height or lower. |
 | 6 | The agent executes a high jump while keeping the ledge below in sight. |
 | 7 | The agent moves towards the right edge of the scene and touches the mushroom. |
-
-#### 🎯 How to View the Videos
-
-1. **Download the repository:**
-   ```bash
-   git clone https://github.com/ualiangzhang/semantic_rl.git
-   cd semantic_rl
-   ```
-
-2. **Navigate to the videos directory:**
-   ```bash
-   cd videos/ninja_skills/
-   ```
-
-3. **Play the videos:**
-   - **Windows:** Double-click any `.avi` file to play in your default video player
-   - **macOS:** Double-click any `.avi` file to play in QuickTime Player
-   - **Linux:** Use VLC, MPV, or your preferred video player
 
 #### 📊 Alternative: Generate Your Own Videos
 
