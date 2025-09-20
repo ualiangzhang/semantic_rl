@@ -89,7 +89,8 @@ Our implementation supports four Procgen environments:
 ```
 train_procgen/
 ├── checkpoints/          # Trained model checkpoints
-├── figures/             # Generated visualizations and videos/                  # video clips corresponding to the clusters in the paper             
+├── figures/             # Generated visualizations and videos
+videos                # video clips corresponding to the clusters in the paper             
 ```
 
 
