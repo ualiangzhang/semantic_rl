@@ -15,7 +15,7 @@ This work presents a novel approach to enhancing interpretability in deep reinfo
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/semantic_rl.git
+   git clone https://github.com/ualiangzhang/semantic_rl.git
    cd semantic_rl
    ```
 
@@ -78,13 +78,11 @@ python -m train_procgen.hover_clusters --env_name fruitbot
 
 ## 🎮 Supported Environments
 
-Our implementation supports all Procgen environments:
+Our implementation supports four Procgen environments:
 - **CoinRun** - Platformer with coin collection
 - **FruitBot** - Fruit collection game
 - **Jumper** - Jumping-based platformer
 - **Ninja** - Action-based ninja game
-- **StarPilot** - Space exploration game
-- And more...
 
 ## 📁 Output Structure
 
@@ -95,12 +93,6 @@ train_procgen/
 └── results/             # Evaluation results and metrics
 ```
 
-## 🔬 Research Features
-
-- **Semantic Clustering:** Advanced clustering techniques for policy interpretation
-- **Interactive Visualization:** Hover-based cluster exploration
-- **Skill Decomposition:** Automatic identification and visualization of learned skills
-- **Generalization Analysis:** Comprehensive evaluation across different difficulty levels
 
 ## 📈 Reproducing Results
 
@@ -116,14 +108,14 @@ To reproduce the results from our paper:
 
 If you use this code in your research, please cite our paper:
 
-```bibtex
+<!-- ```bibtex
 @article{zhang2025enhancing,
   title={Enhancing Interpretability in Deep Reinforcement Learning through Semantic Clustering},
   author={Zhang, Liang and Lieffers, Justin and Pyarelal, Adarsh},
   journal={Advances in Neural Information Processing Systems},
   year={2025}
 }
-```
+``` -->
 
 ## 📄 License
 
@@ -132,10 +124,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 This work builds upon the [OpenAI train-procgen](https://github.com/openai/train-procgen) framework. We thank the original authors for their excellent work on procedural generation for reinforcement learning benchmarking.
-
-## 📞 Contact
-
-For questions or issues, please contact:
-- Liang Zhang: [email]
-- Justin Lieffers: [email]  
-- Adarsh Pyarelal: [email]
