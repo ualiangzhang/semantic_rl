@@ -90,18 +90,59 @@ Our implementation supports four Procgen environments:
 
 The following videos demonstrate the 8 distinct semantic clusters learned by our model in the Ninja environment. Each cluster represents a different behavioral pattern and skill set:
 
-#### 📹 Video Demonstrations
+#### 📹 Semantic Cluster Demonstrations
 
-| Cluster | Video File |
-|---------|------------|
-| **Cluster 0** | [cluster_0.avi](videos/ninja_skills/cluster_0.avi) |
-| **Cluster 1** | [cluster_1.avi](videos/ninja_skills/cluster_1.avi) |
-| **Cluster 2** | [cluster_2.avi](videos/ninja_skills/cluster_2.avi) |
-| **Cluster 3** | [cluster_3.avi](videos/ninja_skills/cluster_3.avi) |
-| **Cluster 4** | [cluster_4.avi](videos/ninja_skills/cluster_4.avi) |
-| **Cluster 5** | [cluster_5.avi](videos/ninja_skills/cluster_5.avi) |
-| **Cluster 6** | [cluster_6.avi](videos/ninja_skills/cluster_6.avi) |
-| **Cluster 7** | [cluster_7.avi](videos/ninja_skills/cluster_7.avi) |
+<table>
+<tr>
+<td align="center">
+<strong>Cluster 0</strong><br/>
+<img src="videos/ninja_skills/cluster_0.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 1</strong><br/>
+<img src="videos/ninja_skills/cluster_1.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 2</strong><br/>
+<img src="videos/ninja_skills/cluster_2.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 3</strong><br/>
+<img src="videos/ninja_skills/cluster_3.gif" width="200" height="200" />
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Cluster 4</strong><br/>
+<img src="videos/ninja_skills/cluster_4.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 5</strong><br/>
+<img src="videos/ninja_skills/cluster_5.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 6</strong><br/>
+<img src="videos/ninja_skills/cluster_6.gif" width="200" height="200" />
+</td>
+<td align="center">
+<strong>Cluster 7</strong><br/>
+<img src="videos/ninja_skills/cluster_7.gif" width="200" height="200" />
+</td>
+</tr>
+</table>
+
+#### 🧭 Behavior Descriptions (Ninja)
+
+| Cluster | Behavior | Mean image outlines |
+|---|---|---|
+| 0 | The agent starts by walking through the first platform and then performs a high jump to reach a higher ledge. | Essential elements are outlined, e.g., a left-side wall, the current position of the agent on the first platform, and the upcoming higher ledges. |
+| 1 | The agent makes small jumps in the middle of the scene. | We can observe the outlines of several ledges below the agent. |
+| 2 | Two interpretations are present: (1) the agent starts from the leftmost end of the scene and walks to the starting position of Cluster 0; (2) when there are no higher ledges to jump to, the agent begins from the scene, walks over the first platform, and prepares to jump to the subsequent ledge. | The scene prominently displays the distinct outline of the left wall and the first platform. The agent’s current position is close to both of them. |
+| 3 | The agent walks on the ledge and prepares to jump to a higher ledge. | The agent is standing on the outline of the current ledge and the following higher ledges. |
+| 4 | After performing a high jump, the agent loses sight of the ledge below. | The agent is performing a high jump. |
+| 5 | The agent walks on the ledge and prepares to jump onto a ledge at the same height or lower. | The agent is standing on the outline of the current ledge and the following ledges at the same height or lower. |
+| 6 | The agent executes a high jump while keeping the ledge below in sight. | The agent is performing a high jump and the outline of the ledge below is visible. |
+| 7 | The agent moves towards the right edge of the scene and touches the mushroom. | The outlines of the wall and platform on the far right are visible. |
 
 #### 🎯 How to View the Videos
 
