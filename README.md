@@ -21,8 +21,8 @@ This work presents a novel approach to enhancing interpretability in deep reinfo
 
 2. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
+```
 
 3. **Install Procgen environments:**
    Follow the installation steps in the [Procgen repository](https://github.com/openai/procgen).
@@ -96,37 +96,37 @@ The following videos demonstrate the 8 distinct semantic clusters learned by our
 <tr>
 <td align="center">
 <strong>Cluster 0</strong><br/>
-<img src="videos/ninja_skills/cluster_0.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_0.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 1</strong><br/>
-<img src="videos/ninja_skills/cluster_1.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_1.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 2</strong><br/>
-<img src="videos/ninja_skills/cluster_2.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_2.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 3</strong><br/>
-<img src="videos/ninja_skills/cluster_3.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_3.gif" width="180" height="180" />
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Cluster 4</strong><br/>
-<img src="videos/ninja_skills/cluster_4.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_4.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 5</strong><br/>
-<img src="videos/ninja_skills/cluster_5.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_5.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 6</strong><br/>
-<img src="videos/ninja_skills/cluster_6.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_6.gif" width="180" height="180" />
 </td>
 <td align="center">
 <strong>Cluster 7</strong><br/>
-<img src="videos/ninja_skills/cluster_7.gif" width="200" height="200" />
+<img src="videos/ninja_skills/cluster_7.gif" width="180" height="180" />
 </td>
 </tr>
 </table>
