@@ -87,10 +87,11 @@ Our implementation supports four Procgen environments:
 ## 📁 Output Structure
 
 ```
+baseline/                # Required RL training package
 train_procgen/
-├── checkpoints/          # Trained model checkpoints
+├── checkpoints/         # Trained model checkpoints
 ├── figures/             # Generated visualizations and videos
-videos                # video clips corresponding to the clusters in the paper             
+videos/                  # video clips corresponding to the clusters in the paper             
 ```
 
 
