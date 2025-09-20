@@ -90,68 +90,45 @@ Our implementation supports four Procgen environments:
 
 The following videos demonstrate the 8 distinct semantic clusters learned by our model in the Ninja environment. Each cluster represents a different behavioral pattern and skill set:
 
-<table>
-<tr>
-<td align="center">
-<strong>Cluster 0</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_0.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 1</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_1.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 2</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_2.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 3</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_3.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>Cluster 4</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_4.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 5</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_5.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 6</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_6.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td align="center">
-<strong>Cluster 7</strong><br/>
-<video width="200" height="200" controls loop autoplay muted>
-  <source src="videos/ninja_skills/cluster_7.avi" type="video/avi">
-  Your browser does not support the video tag.
-</video>
-</td>
-</tr>
-</table>
+#### 📹 Video Demonstrations
+
+| Cluster | Video File | Description |
+|---------|------------|-------------|
+| **Cluster 0** | [cluster_0.avi](videos/ninja_skills/cluster_0.avi) | Combat strategy and movement pattern 1 |
+| **Cluster 1** | [cluster_1.avi](videos/ninja_skills/cluster_1.avi) | Combat strategy and movement pattern 2 |
+| **Cluster 2** | [cluster_2.avi](videos/ninja_skills/cluster_2.avi) | Combat strategy and movement pattern 3 |
+| **Cluster 3** | [cluster_3.avi](videos/ninja_skills/cluster_3.avi) | Combat strategy and movement pattern 4 |
+| **Cluster 4** | [cluster_4.avi](videos/ninja_skills/cluster_4.avi) | Combat strategy and movement pattern 5 |
+| **Cluster 5** | [cluster_5.avi](videos/ninja_skills/cluster_5.avi) | Combat strategy and movement pattern 6 |
+| **Cluster 6** | [cluster_6.avi](videos/ninja_skills/cluster_6.avi) | Combat strategy and movement pattern 7 |
+| **Cluster 7** | [cluster_7.avi](videos/ninja_skills/cluster_7.avi) | Combat strategy and movement pattern 8 |
+
+#### 🎯 How to View the Videos
+
+1. **Download the repository:**
+   ```bash
+   git clone https://github.com/ualiangzhang/semantic_rl.git
+   cd semantic_rl
+   ```
+
+2. **Navigate to the videos directory:**
+   ```bash
+   cd videos/ninja_skills/
+   ```
+
+3. **Play the videos:**
+   - **Windows:** Double-click any `.avi` file to play in your default video player
+   - **macOS:** Double-click any `.avi` file to play in QuickTime Player
+   - **Linux:** Use VLC, MPV, or your preferred video player
+
+#### 📊 Alternative: Generate Your Own Videos
+
+You can also generate these videos yourself using our code:
+
+```bash
+# Generate Ninja skill cluster videos
+python -m train_procgen.enjoy_sppo --env_name ninja --mode 0 --num_embeddings 8
+```
 
 **Note:** These videos showcase the distinct behavioral patterns learned by our semantic clustering approach. Each cluster demonstrates different combat strategies, movement patterns, and decision-making processes in the Ninja environment.
 
