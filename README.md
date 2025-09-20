@@ -92,16 +92,16 @@ The following videos demonstrate the 8 distinct semantic clusters learned by our
 
 #### 📹 Video Demonstrations
 
-| Cluster | Video File | Description |
-|---------|------------|-------------|
-| **Cluster 0** | [cluster_0.avi](videos/ninja_skills/cluster_0.avi) | Combat strategy and movement pattern 1 |
-| **Cluster 1** | [cluster_1.avi](videos/ninja_skills/cluster_1.avi) | Combat strategy and movement pattern 2 |
-| **Cluster 2** | [cluster_2.avi](videos/ninja_skills/cluster_2.avi) | Combat strategy and movement pattern 3 |
-| **Cluster 3** | [cluster_3.avi](videos/ninja_skills/cluster_3.avi) | Combat strategy and movement pattern 4 |
-| **Cluster 4** | [cluster_4.avi](videos/ninja_skills/cluster_4.avi) | Combat strategy and movement pattern 5 |
-| **Cluster 5** | [cluster_5.avi](videos/ninja_skills/cluster_5.avi) | Combat strategy and movement pattern 6 |
-| **Cluster 6** | [cluster_6.avi](videos/ninja_skills/cluster_6.avi) | Combat strategy and movement pattern 7 |
-| **Cluster 7** | [cluster_7.avi](videos/ninja_skills/cluster_7.avi) | Combat strategy and movement pattern 8 |
+| Cluster | Video File |
+|---------|------------|
+| **Cluster 0** | [cluster_0.avi](videos/ninja_skills/cluster_0.avi) |
+| **Cluster 1** | [cluster_1.avi](videos/ninja_skills/cluster_1.avi) |
+| **Cluster 2** | [cluster_2.avi](videos/ninja_skills/cluster_2.avi) |
+| **Cluster 3** | [cluster_3.avi](videos/ninja_skills/cluster_3.avi) |
+| **Cluster 4** | [cluster_4.avi](videos/ninja_skills/cluster_4.avi) |
+| **Cluster 5** | [cluster_5.avi](videos/ninja_skills/cluster_5.avi) |
+| **Cluster 6** | [cluster_6.avi](videos/ninja_skills/cluster_6.avi) |
+| **Cluster 7** | [cluster_7.avi](videos/ninja_skills/cluster_7.avi) |
 
 #### 🎯 How to View the Videos
 
