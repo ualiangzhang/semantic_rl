@@ -84,6 +84,77 @@ Our implementation supports four Procgen environments:
 - **Jumper** - Jumping-based platformer
 - **Ninja** - Action-based ninja game
 
+## 🎬 Semantic Clustering Demonstration
+
+### Ninja Environment - 8 Skill Clusters
+
+The following videos demonstrate the 8 distinct semantic clusters learned by our model in the Ninja environment. Each cluster represents a different behavioral pattern and skill set:
+
+<table>
+<tr>
+<td align="center">
+<strong>Cluster 0</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_0.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 1</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_1.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 2</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_2.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 3</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_3.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Cluster 4</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_4.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 5</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_5.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 6</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_6.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+<td align="center">
+<strong>Cluster 7</strong><br/>
+<video width="200" height="200" controls loop autoplay muted>
+  <source src="videos/ninja_skills/cluster_7.avi" type="video/avi">
+  Your browser does not support the video tag.
+</video>
+</td>
+</tr>
+</table>
+
+**Note:** These videos showcase the distinct behavioral patterns learned by our semantic clustering approach. Each cluster demonstrates different combat strategies, movement patterns, and decision-making processes in the Ninja environment.
+
 ## 📁 Output Structure
 
 ```
@@ -105,9 +176,9 @@ To reproduce the results from our paper:
 
 **Note:** Video generation may take 30-60 minutes depending on machine performance, as it ensures comprehensive exploration of all clusters.
 
-## 🤝 Citation
+<!-- ## 🤝 Citation
 
-If you use this code in your research, please cite our paper:
+If you use this code in your research, please cite our paper: -->
 
 <!-- ```bibtex
 @article{zhang2025enhancing,
