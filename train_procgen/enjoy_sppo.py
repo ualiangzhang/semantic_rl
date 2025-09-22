@@ -274,7 +274,7 @@ def main():
                 obs['rgb'])
             action = np.squeeze(a)
             # record 8/10 data to ensure explore more states
-            if np.random.uniform(0, 1) > 0.8:
+            if np.random.uniform(0, 1) > 0.2:
                 pure_features.append(pure_latent)
                 skill_latents.append(sl)
                 enc_indices.append(encoding_indices)
@@ -342,7 +342,7 @@ def main():
         plt.xlabel('FDR x')
         plt.ylabel('FDR y')
 
-        fig.savefig('./train_procgen/figures/' + figure_name_prefix + 'skill_embeddings.png', dpi=600, bbox_inches='tight')
+        fig.savefig('./train_procgen/figures/' + figure_name_prefix + 'fdr_embeddings.png', dpi=600, bbox_inches='tight')
         # plt.show()
 
 if __name__ == '__main__':

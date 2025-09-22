@@ -6,3 +6,5 @@ __pycache__/
 .idea/
 venv/
 .venv/
+train_procgen/checkpoints/
+train_procgen/figures/
