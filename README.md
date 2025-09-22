@@ -51,12 +51,6 @@ python single_graph.py --env_name <ENV_NAME>
 python single_graph.py --env_name coinrun
 ```
 
-**Generate generalization figures for all games:**
-```bash
-cd train_procgen
-python graph.py
-```
-
 ### Semantic Clustering Visualization
 
 **Generate embedding space visualizations:**
