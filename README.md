@@ -165,7 +165,7 @@ videos/                  # video clips corresponding to the clusters in the pape
 
 To reproduce the results from our paper:
 
-1. **(Optional) Use existing checkpoints**: We have provided pre-trained checkpoints for all 4 environments in this repository under `train_procgen/checkpoints/`. You can skip training and directly run the visualization scripts. Otherwise, **train models** using the commands above.
+1. **(Optional) Use existing checkpoints**: We have provided pre-trained checkpoints for Ninja, FruitBot, and Jumper (random seed 2021) in this repository under `train_procgen/checkpoints/`. You can skip training and directly run the visualization scripts. Otherwise, **train models** using the commands above.
 2. **Generate visualizations** using the provided scripts
 3. **Analyze results** using the interactive tools
 
