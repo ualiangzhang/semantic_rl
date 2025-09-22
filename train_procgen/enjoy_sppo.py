@@ -312,7 +312,7 @@ def main():
 
         plt.legend(handles=pop_, bbox_to_anchor=(1.02, 1), loc=2, borderaxespad=0, numpoints=1, fontsize=10)
 
-        plt.title('The t-SNE embedding space')
+        plt.title('The t-SNE space')
         plt.xlabel('t-SNE x')
         plt.ylabel('t-SNE y')
 
@@ -338,9 +338,9 @@ def main():
 
         plt.legend(handles=pop_, bbox_to_anchor=(1.02, 1), loc=2, borderaxespad=0, numpoints=1, fontsize=10)
 
-        plt.title('The skill embedding space')
-        plt.xlabel('skill x')
-        plt.ylabel('skill y')
+        plt.title('The FDR space')
+        plt.xlabel('FDR x')
+        plt.ylabel('FDR y')
 
         fig.savefig('./train_procgen/figures/' + figure_name_prefix + 'skill_embeddings.png', dpi=600, bbox_inches='tight')
         # plt.show()

@@ -273,9 +273,9 @@ def main():
     figure = plt.scatter(skill_latents[:, 0], skill_latents[:, 1], s=10, c=c_cet[cluster_indices], alpha=0.5)
     line, = plt.plot(skill_latents[:, 0], skill_latents[:, 1], ls="")
 
-    plt.title('The skill embedding space')
-    plt.xlabel('skill x')
-    plt.ylabel('skill y')
+    plt.title('The FDR space')
+    plt.xlabel('FDR x')
+    plt.ylabel('FDR y')
 
     # create the annotations box
     im = OffsetImage(images[0, :, :, :], zoom=0.2)

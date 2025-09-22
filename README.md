@@ -13,13 +13,15 @@ This work presents a novel approach to enhancing interpretability in deep reinfo
 
 ### Installation
 
+Prerequisite: Python 3.8.
+
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/ualiangzhang/semantic_rl.git
    cd semantic_rl
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies (Python 3.8):**
    ```bash
    pip install -r requirements.txt
    ```
