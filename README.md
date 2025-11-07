@@ -2,7 +2,7 @@
 
 **Authors:** Liang Zhang, Justin Lieffers, Adarsh Pyarelal  
 **Conference:** NeurIPS 2025 Main Track  
-**Paper:** [arXiv:2409.17411](https://arxiv.org/abs/2409.17411)
+**Paper:** [arXiv:2409.17411](https://arxiv.org/abs/2409.17411)  
 **Huggin Face:** https://huggingface.co/leonepson/semantic_rl
 
 This repository contains the official implementation of our research on enhancing interpretability in deep reinforcement learning through semantic clustering techniques. Our work extends the [OpenAI train-procgen](https://github.com/openai/train-procgen) framework to incorporate semantic clustering methods for improved understanding and visualization of learned policies in procedural environments.
